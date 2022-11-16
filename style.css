@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: #ffcf00;
+    height: 22vh;
+}
+img{
+    height:25vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+   width: 44vw;
+}
+ul{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 30vw;
+}
+li{
+    font-family:"Ubuntu", sans-serif ;
+    font-weight: bold;
+    font-size: 25px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    height: 90vh;
+}
+form{
+    display: flex;
+flex-direction: column;
+    width: 50vw;
+    height:60vh ;
+    background-color: #f4b418;
+    border-radius: 30px;
+}
+h2{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+    width: 30vw;
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+}
+div{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: solid; */
+    width: 27vw;
+    height:6vh;
+}
+label{
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+}
+input{
+    position: relative;
+    right: -0.6vw;
+    height: 5vh;
+    width: 20vw;
+    background-color:transparent;
+    border: solid 1px;
+}
+input::placeholder{
+color: #E1DBCE;
+font-size: 24px;
+padding-left: 8px;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* border: solid; */
+    width: 50vw;
+    height: 5vh;
+}
+section label{
+    position: relative;
+    left: 1.2vw;
+    font-size: 18px;
+}
+section input{
+    position: relative;
+    top: 0.2vh;
+    right:0.5vw;
+    height: 2vh;
+}
+p{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    /* border: solid; */
+    height: 6vh;
+    width:31vw;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Ubutu", sans-serif;
+}
